@@ -1,20 +1,20 @@
 |[实验记录]|[作者原文]|
 |----|----|
-|[:pencil2:](#实验记录 "wty的实验记录")| [:book:](#作者原文 "原作者的实验说明")|
+|[:pencil2:](#实验记录 "wty的实验记录")| [:book:](#作者原文 "原作者的实验说明")|  
 
 
 ##  实验记录
-2019.06.27用自己的电脑训练了一下模型
-方法：
-    1. 在main.py中更改mode，把“demo”改成“train”；
-        2. 在data文件夹下copy入下载的kaggle数据包文件夹——fer2013
-        3. 运行main.py。
-耗时：7h6min
-电脑配置：
-        win10（64）
-        cpu：corei5 4210M
-        Gpu：Nvidia GeForce840M
-        运存：8GB
+2019.06.27用自己的电脑训练了一下模型  
+方法：  
+    1. 在main.py中更改mode，把“demo”改成“train”；  
+        2. 在data文件夹下copy入下载的kaggle数据包文件夹——fer2013  
+        3. 运行main.py。  
+耗时：7h6min  
+电脑配置：  
+        win10（64）  
+        cpu：corei5 4210M  
+        Gpu：Nvidia GeForce840M  
+        运存：8GB  
 
 -----------------------
 ## 作者原文
