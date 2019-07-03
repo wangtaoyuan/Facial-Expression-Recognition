@@ -3,7 +3,7 @@ from model import train_model, valid_model
 import tensorflow as tf
 
 flags =  tf.app.flags
-flags.DEFINE_string('MODE', 'demo', 
+flags.DEFINE_string('MODE', 'demo',
                     'Set program to run in different mode, include train, valid and demo.')
 flags.DEFINE_string('checkpoint_dir', './ckpt', 
                     'Path to model file.')

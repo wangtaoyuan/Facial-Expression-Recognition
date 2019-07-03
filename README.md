@@ -1,12 +1,19 @@
-|实验记录|作者原文|
-|----|----|
-|[:pencil2:](#实验记录 "wty的实验记录")| [:book:](#作者原文 "原作者的实验说明")|  
+|分支示意|实验记录|作者原文|
+|----|----|----|
+|[:deciduous_tree:](#分支示意 "branch")|[:pencil2:](#实验记录 "wty的实验记录")| [:book:](#作者原文 "原作者的实验说明")|
 
+## 分支示意
+```mermaid
+graph LR
+master[master 当前本版] --- version{version}
+    version --> |作者原版| D[original]
+    version --> |更改版本| E[v 1.0]
+```
 
 ##  实验记录
 2019.06.27用自己的电脑训练了一下模型  
 方法：  
-    1. 在main.py中更改mode，把“demo”改成“train”；  
+        1. 在main.py中更改mode，把“demo”改成“train”；  
         2. 在data文件夹下copy入下载的kaggle数据包文件夹——fer2013  
         3. 运行main.py。  
 耗时：7h6min  
@@ -37,7 +44,7 @@ Only tested in Ubuntu and macOS Sierra. Other platforms are not sure work well. 
 #### Usage
 ###### demo
 To run the demo, just type:
-```shell
+​```shell
 python3 main.py
 ```
 Then the program will creat a window to display the scene capture by webcamera. You need press <kbd>SPACE</kbd> key to capture face in current frame and recognize the facial expression.
@@ -49,7 +56,7 @@ If you want to train a model from scaratch by yourself, download the fer2013 dat
 
 It's is import that modifying the `MODE`(in `main.py`) from `demo` to `train`  before you start training.
 Then type:
-```shell
+​```shell
 python3 main.py
 ```
 
